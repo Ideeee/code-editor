@@ -1,0 +1,28 @@
+{
+  "name": "pthon_editor",
+  "version": "1.0.0",
+  "description": "A web based python editor and code tester for students",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yinkatej/python_code_editor.git"
+  },
+  "keywords": [
+    "python",
+    "editor",
+    "python-tester"
+  ],
+  "author": "Olayink Tejumola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yinkatej/python_code_editor/issues"
+  },
+  "homepage": "https://github.com/yinkatej/python_code_editor#readme",
+  "dependencies": {
+    "brython": "^3.11.2",
+    "pyodide": "^0.23.2"
+  }
+}

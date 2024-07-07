@@ -1,0 +1,78 @@
+.align-right {
+    text-align: right;
+}
+
+.container {
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 10px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    justify-content: space-between;
+    height: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 40, 40);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* 100% - head.height - main.margin-top */
+    height: calc(100% - 100px - 10px);
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.question {
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 5px;
+    overflow: scroll;
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 40, 40);
+}
+
+.code {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin-left: 5px;
+}
+
+.output {
+    height: 20%;
+    font-size: 15px;
+    background-color: rgb(39, 40, 41);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    resize: none;
+}
+
+.btn {
+    width: 10%;
+    background-color: #0af358;
+    border: none;
+    border-radius: 5px;
+}
+
+.CodeMirror {
+    height: 60% !important;
+    font-family: 'JetBrains Mono', monospace !important;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
